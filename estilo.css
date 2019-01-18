@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* Hoja de Estilo hecha por Andrés S. Pereira Ch. el 18/01/2019 */
+body{
+    background-color: rgb(255, 255, 125);
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: cursive ;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: red 5px 0;
+    background: orange;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+p.naranja1{
+    background: url(img/naranja2.svg) repeat-x;
+}
+p.naranja2{
+    background: url(img/naranja2.svg)  repeat-x;
+    position: absolute;
+    bottom: 15%;
+    z-index: 3;
+}
+nav{
+    background: yellow;
+    border: 5px solid red;
+    text-align: center;
+}
+a{
+    padding: 5%;     
+}
+p.cuadro {
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+}
+/* cuadro naranja */
+p#t1 {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: 4px solid red;
+    background: url(img/naranja.png) left repeat-y,url(img/naranja.png) right repeat-y, orange;
+    text-align: center;
+}
+/* cuadro azul */
+p#t2 {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: 4px solid blue;
+    background: lightblue;
+    text-align: center;
+}
+/* cuadro amarillo */
+p#t3 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: 4px solid yellowgreen;
+    background: yellow;
+    text-align: center;
+}
+p:hover {
+    z-index: 3;
+}
+/* lista */
+ul{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    list-style-type: upper-roman;
+    background-color: orange;
+    color: darkblue;
+  }
+footer{
+    position: absolute;
+    bottom: 0%;
+    right: 43%;
+    color: red;
+}
